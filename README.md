@@ -6,7 +6,7 @@
 ---
 
 ## 📄 Descripción del proyecto
-Clasificación de imágenes médicas (**CT de tórax**)[https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images] para detectar y diferenciar entre:
+Clasificación de imágenes médicas [**CT de tórax**](https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images) para detectar y diferenciar entre:
 - Adenocarcinoma
 - Carcinoma de células grandes
 - Carcinoma de células escamosas
@@ -50,8 +50,9 @@ pip install -r requirements.txt
 git clone https://github.com/joshpg190498/CEIA-VpC2-TP.git
 cd CEIA-VpC2-TP
 ```
-2. Descargar pesos de RadImageNet y colocarlos en `RadImageNet_pytorch/`
-3. Ejecutar notebooks en orden:
+2. Descargar el dataset de Kaggle y colocarlo en la carpeta raíz.
+3. Descargar pesos de RadImageNet y colocarlos en `RadImageNet_pytorch/`
+4. Ejecutar notebooks en orden:
    - `1_trabajo_practico_final_EDA_Baseline.ipynb`
    - `2_trabajo_practico_final_ResNet_wandb.ipynb`
    - `3_trabajo_practico_final_DenseNet_wandb.ipynb`
